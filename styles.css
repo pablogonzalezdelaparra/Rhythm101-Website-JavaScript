@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+}
+
+.login-box {
+    width: 50%;
+    padding: 12px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+.logo{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    text-align: justify;
+}
+
+.dashboard {
+    font-size: 25px!important;
+}
+
+.logout {
+    margin-top: 50%;
+    background-color: rgb(220, 220, 220);
+    border-color: rgb(220, 220, 220);
+    border-radius: 4px;
+    
+}
+
+.title {
+    font-size: 50px!important;
+}
+
+@media (max-width: 1000px) {
+    .login-box {
+        width: 100%;
+        margin-top: 0;
+    }
+}
